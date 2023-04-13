@@ -47,3 +47,57 @@ nav{
 .buttonMetaMesk > a:hover{
     background-color: #5a5757;
 }
+.headerContent{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+.headerArtist{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap:100px;
+}
+.headerText > p{
+    color: #fff;
+    font-family: montserrat;
+    font-size: 18px;
+}
+.headerAvatares > p{
+    color: #fff;
+}
+.headerAvatares > img{
+    height: 86px;
+    width: 95px;
+    position: absolute;
+    }
+.img-2{
+    margin-left: 26px;
+}
+.img-3{
+    margin-left: 57px;
+}
+.img-4{
+    margin-left: 74px;
+}
+.headerAvatares >p{
+    color: #fff;
+    font-family: montserrat;
+    font-weight: 700;
+    margin-left : 180px 
+}
+.headerAvatares{
+    display: flex;
+}
+.headerTitle{
+color: #fff;
+font-size: 50px;
+font-family: montserrat;
+font-weight: 700;
+height: 246px;
+width: 580px;
+}
+.headerTitle > p{
+    color: #FF5B50;
+}
