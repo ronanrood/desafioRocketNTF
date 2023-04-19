@@ -200,8 +200,5 @@ section{
     grid-area: i;
     /* height: 300px;
     width: 1150px; */
-}
-.imgSection>img{
-    width: 100vw;
     border-bottom: solid 1px #5a5757;
 }
