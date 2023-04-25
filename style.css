@@ -114,7 +114,7 @@ nav {
 }
 .cardContent {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
   column-gap: 14px;
   width: auto;
   height: 500px;
@@ -207,11 +207,6 @@ section {
 .popularWeekContainer{
   margin-top: 150px;
 }
-.popularWeekContent{
-  display: grid;
-  grid-template-areas: "1 2";
-  grid-template-columns: 50%;
-}
 .titlePopularWeek > h1{
   color: #fff;
   font-size: 50px;
@@ -222,82 +217,52 @@ section {
 .titlePopularWeek > h1>strong{
   color: #ff5b50;
 }
-.cardPpopularWeekContainer{
-  grid-area: 1;
+.card_pContainer{
   display: flex;
-  
   flex-direction: column;
-  border-right: solid 1px #5a5757
+  justify-content: space-between;
+  align-items: center; 
+  width: 380px;
+  height: 340px;
+  margin-bottom: 50px;
 }
-.titleCard-p > h1{
-  color: #fff;
-  font-size: 30px;
+.titleCard_p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 380px;
+}
+.titleCard_p > h1{
   font-family: montserrat;
+  font-size: 30px;
+  color: #fff;
   font-weight: 500;
 }
-.titleCard-p{
+.nameArtistCard_p{
   display: flex;
   justify-content: space-between;
+  width: 380px;
 }
-.card-p{
-  height: 400px;
-  width: 400px;
-}
-.artistNameCard{
-  color: #5a5757;
-  font-size: 20px;
+.nameArtistCard_p > p{
   font-family: montserrat;
-  font-weight: 400px;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #5a5757;
 }
-.artistNameCard > #number{
+.nameArtistCard_p > p > strong{
   color: #ff5b50;
 }
-.imgCard > img{
-  height: 100%;
-  width: 100%;
-  margin-top: 30px;
+.imgCard_p > img{
+  width: 380px;
+  height: 200px;
 }
-.cardPpopularWeekContainer2{
-  grid-area: 2;
-  display: flex;
-  
-  flex-direction: column;
-  border-right: solid 1px #5a5757
+.cardPopularWeekContainer{
+  display: grid;
+  grid-template-areas: "l r";
+  justify-content: space-around;
+  margin-bottom: 100px;
 }
-.titleCard-p2 > h1{
-  color: #fff;
-  font-size: 30px;
-  font-family: montserrat;
-  font-weight: 500;
+.cardPopularWeekContent{
+  padding-right: 200px;
+  border-right: solid 1px #5a5757;
 }
-.titleCard-p2{
-  display: flex;
-  justify-content: space-between;
-}
-.card-p2{
-  height: 400px;
-  width: 400px;
-}
-.artistNameCard2{
-  color: #5a5757;
-  font-size: 20px;
-  font-family: montserrat;
-  font-weight: 400px;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 40px;
-}
-.artistNameCard2 > #number2{
-  color: #ff5b50;
-}
-.imgCard2 > img{
-  height: 100%;
-  width: 100%;
-  margin-top: 30px;
-}
-
-
-
