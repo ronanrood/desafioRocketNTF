@@ -266,3 +266,71 @@ section {
   padding-right: 200px;
   border-right: solid 1px #5a5757;
 }
+.bestArtistContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  width: 1280px;
+  height: 700px;
+}
+.titleBestArtist > p{
+  font-family: montserrat;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 700;
+}
+.titleBestArtist > p > strong{
+  color: #ff5b50;
+}
+.buttonBestArtist{
+  display: flex;
+  width: 260px;
+  height: auto;
+  justify-content: space-between;
+}
+.buttonBestArtist > a{
+  text-decoration: none;
+  font-family: montserrat;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
+}
+.card_bContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 100px;
+}
+.card_bContent{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 350px;
+  height: 150px;
+  background-color: #252525;
+}
+.card_bContent:hover{
+  background-color: #e37169;
+  
+}
+.card_bContent > img{
+  height: 100px;
+}
+.nameCard_b{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.nameCard_b > p{
+  font-family: montserrat;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+.nameCard_b > p > strong{
+  color: #ff5b50;
+}
