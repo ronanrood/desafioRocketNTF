@@ -114,7 +114,7 @@ nav {
 }
 .cardContent {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   column-gap: 14px;
   width: auto;
   height: 500px;
@@ -204,24 +204,24 @@ section {
     width: 1150px; */
   border-bottom: solid 1px #5a5757;
 }
-.popularWeekContainer{
+.popularWeekContainer {
   margin-top: 150px;
 }
-.titlePopularWeek > h1{
+.titlePopularWeek > h1 {
   color: #fff;
   font-size: 50px;
   font-family: montserrat;
   font-weight: 700px;
   padding-bottom: 150px;
 }
-.titlePopularWeek > h1>strong{
+.titlePopularWeek > h1 > strong {
   color: #ff5b50;
 }
-.card_pContainer{
+.card_pContainer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
   width: 380px;
   height: 340px;
   margin-bottom: 50px;
@@ -232,71 +232,72 @@ section {
   align-items: center;
   width: 380px;
 }
-.titleCard_p > h1{
+.titleCard_p > h1 {
   font-family: montserrat;
   font-size: 30px;
   color: #fff;
   font-weight: 500;
 }
-.nameArtistCard_p{
+.nameArtistCard_p {
   display: flex;
   justify-content: space-between;
   width: 380px;
 }
-.nameArtistCard_p > p{
+.nameArtistCard_p > p {
   font-family: montserrat;
   font-size: 20px;
   font-weight: 700;
   color: #5a5757;
 }
-.nameArtistCard_p > p > strong{
+.nameArtistCard_p > p > strong {
   color: #ff5b50;
 }
-.imgCard_p > img{
+.imgCard_p > img {
   width: 380px;
   height: 200px;
 }
-.cardPopularWeekContainer{
+.cardPopularWeekContainer {
   display: grid;
   grid-template-areas: "l r";
   justify-content: space-around;
   margin-bottom: 100px;
 }
-.cardPopularWeekContent{
+.cardPopularWeekContent {
   padding-right: 200px;
   border-right: solid 1px #5a5757;
 }
-.bestArtistContainer{
+.bestArtistContainer {
   display: flex;
   flex-direction: column;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   width: 1280px;
   height: 700px;
 }
-.titleBestArtist > p{
+.titleBestArtist > p {
   font-family: montserrat;
   font-size: 50px;
   color: #fff;
   font-weight: 700;
 }
-.titleBestArtist > p > strong{
+.titleBestArtist > p > strong {
   color: #ff5b50;
 }
-.buttonBestArtist{
+.buttonBestArtist {
   display: flex;
   width: 260px;
   height: auto;
   justify-content: space-between;
+  margin-bottom: 150px;
 }
-.buttonBestArtist > a{
+.buttonBestArtist > a {
   text-decoration: none;
   font-family: montserrat;
   font-size: 20px;
   color: #fff;
   font-weight: 400;
 }
-.card_bContainer{
+.card_bContainer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -304,7 +305,7 @@ section {
   align-items: center;
   row-gap: 100px;
 }
-.card_bContent{
+.card_bContent {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -312,25 +313,155 @@ section {
   height: 150px;
   background-color: #252525;
 }
-.card_bContent:hover{
+.card_bContent:hover {
   background-color: #e37169;
-  
 }
-.card_bContent > img{
+.card_bContent > img {
   height: 100px;
 }
-.nameCard_b{
+.nameCard_b {
   height: 100px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-.nameCard_b > p{
+.nameCard_b > p {
   font-family: montserrat;
   font-size: 20px;
   color: #fff;
   font-weight: 500;
 }
-.nameCard_b > p > strong{
+.nameCard_b > p > strong {
   color: #ff5b50;
+}
+footer {
+  height: 700px;
+  /* width: 100vw; */
+  background-color: #252525;
+  display: grid;
+  grid-template-areas:
+    "n n n"
+    "new a a"
+    "f f f";
+}
+.navFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 80px;
+  border-bottom: 1px solid #5a5757;
+  grid-area: n;
+}
+.navFooter > a {
+  background-color: #ff5b50;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navFooter > a:hover {
+  background-color: #e37169;
+}
+.navFooter > img {
+  height: 40px;
+}
+.newsletterFooter > h1 {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: montserrat;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.newsletterFooter > h1 > p {
+  color: #ff5b50;
+}
+.newsletterFooter {
+  height: 320px;
+  width: 550px;
+  border-right: 1px solid #5a5757;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  grid-area: new;
+}
+.buttonNewsletter > label {
+  display: flex;
+}
+#email {
+  height: 60px;
+  width: 300px;
+  color: #5a5757;
+  background-color: #0e0e0e;
+  text-align: center;
+  font-size: 20px;
+  font-family: montserrat;
+  font-weight: 400;
+  border: none;
+}
+#submit {
+  height: 60px;
+  width: 100px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: montserrat;
+}
+#submit:hover {
+  background-color: #c8c4c4;
+  border: none;
+}
+.asideFooter {
+  height: 320px;
+  width: 800px;
+  /* display: flex; */
+  grid-area: a;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  align-items: center;
+}
+.asideFooterButtons {
+  margin-top: 80px;
+}
+.asideFooterButtons > ul > li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.asideFooterButtons ul > li > a {
+  color: #5a5757;
+  font-size: 20px;
+  font-family: montserrat;
+  font-weight: 400;
+  text-decoration: none;
+}
+.asideFooterButtons ul > li > a:hover {
+  color: #fff;
+  font-weight: 700;
+}
+.rodapeFooter {
+  grid-area: f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px;
+  border-top: 1px solid #5a5757;
+  height: 140px;
+}
+.rodapeFooter > a {
+  text-decoration: none;
+  color: #5a5757;
+  font-size: 20px;
+  font-family: montserrat;
+  font-weight: 400;
+}
+.rodapeFooter > a:hover {
+  color: #fff;
+  font-weight: 700px;
+}
+.socialIcons {
+  width: 270px;
+  display: flex;
+  justify-content: space-around;
 }
